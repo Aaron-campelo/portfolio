@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Aaron Campelo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" class="icon" href="img\spiderman_logo.png">
+  </head>
+  <body>
+
+    <!-- ══ HEADER ══ -->
+    <header>
+      <a href="#" class="logo">Yo <span>.</span> Aaron Campelo</a>
+      <nav>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- ══ HERO ══ -->
+    <section class="hero">
+      <p class="hero-label">// Desarrollador & Diseñador</p>
+      <h1>Construyo cosas <em>que importan.</em></h1>
+      <p class="hero-sub">
+        Soy un desarrollador apasionado por crear experiencias digitales
+        cuidadas, funcionales y con personalidad propia. Aquí encontrarás
+        una selección de mis mejores trabajos.
+      </p>
+      <div class="hero-stats">
+        <div>
+          <span class="stat-num">02</span>
+          <span class="stat-label">Proyectos</span>
+        </div>
+        <div>
+          <span class="stat-num">1+</span>
+          <span class="stat-label">Años de exp.</span>
+        </div>
+        <div>
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Curiosidad</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ PROJECTS ══ -->
+    <div class="section-header" id="proyectos">
+      <h2>Proyectos seleccionados</h2>
+      <div class="section-line"></div>
+      <span class="section-count">02 / 02</span>
+    </div>
+
+    <section class="projects">
+
+      <!-- PROYECTO 1 — edita según tus proyectos reales -->
+      <article class="project-card" onclick="window.open('#','_blank')">
+        <div class="project-num">01</div>
+        <div class="project-content">
+          <h3 class="project-title">Garbisa</h3>
+          <p class="project-desc">
+            Pagina web para solucionar problemas del campo.
+            Breve descripción del proyecto. Cuéntanos el problema que resuelve,
+            la tecnología que usaste y el impacto que tuvo. 2-3 frases bastan.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">Script.js</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-year">2026</span>
+          <a href="https://aaron-campelo.github.io/garbisaweb/Garbisa/"
+            class="project-link">Ver demo</a>
+          <span class="project-arrow">→</span>
+        </div>
+      </article>
+
+      <!-- PROYECTO 2 -->
+      <article class="project-card" onclick="window.open('#','_blank')">
+        <div class="project-num">02</div>
+        <div class="project-content">
+          <h3 class="project-title">Implementación de Dockers con PHP, BBDD y
+            Active Directory</h3>
+          <p class="project-desc">
+            sistema de autenticación de usuarios mediante la implementación de
+            Docker en PHP, usando bases de datos para la existencia de los
+            usuarios y utilización de Active Directory para replicar el
+            contenido de la base de datos en el directorio activo.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-year">2024</span>
+          <a href="https://github.com/Aaron-campelo/TFG-Asir.git"
+            class="project-link">GitHub</a>
+          <span class="project-arrow">→</span>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ══ ABOUT ══ -->
+    <section class="about-strip" id="sobre-mi">
+      <div>
+        <h3>Hola, soy<br /><em
+            style="font-style:italic; color: var(--accent)">Aaron
+            Campelo</em></h3>
+        <p>
+          Desarrollador HTML con pasión por el diseño limpio y el código
+          bien escrito. Me interesa especialmente la intersección entre
+          tecnología y experiencia de usuario.
+          <br /><br />
+          Cuando no estoy programando, estás probablemente explorando nuevas
+          herramientas, leyendo sobre sistemas o colaborando en proyectos
+          open-source.
+        </p>
+      </div>
+      <div>
+        <h3
+          style="font-family:'DM Mono',monospace; font-size:0.75rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--muted); font-weight:400; margin-bottom:1.5rem;">Stack
+          principal</h3>
+        <div class="skills-list">
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">PHP</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CONTACT ══ -->
+    <section class="contact" id="contacto">
+      <div class="contact-inner">
+
+        <div class="contact-top">
+          <h2>¿Tienes un proyecto<br />en <em>mente</em>?</h2>
+          <p>
+            Cuéntame en qué puedo ayudarte. Rellena el formulario y te respondo
+            en menos de 48 horas. Sin compromiso, sin spam.
+            <b><br>Los campos con * son de caracter obligatorio para poder entender
+              tu proyecto y darte una respuesta. </b>
+          </p>
+
+        </div>
+
+        <!-- ✏️ Sustituye YOUR_FORM_ID por el ID real de tu formulario en formspree.io -->
+        <form id="contact-form" action="https://formspree.io/f/xgopkjwe"
+          method="POST" novalidate>
+
+          <div class="form-grid">
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Nombre Apellido"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="+34 600 000 000" />
+            </div>
+
+            <div class="form-group full">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="tuemail@empresa.com"
+                required />
+            </div>
+
+            <div class="form-group full">
+              <label for="descripcion">¿Qué necesitas? *</label>
+              <textarea
+                id="descripcion"
+                name="descripcion"
+                placeholder="Cuéntame tu proyecto, idea o necesidad con el máximo detalle posible. ¿Cuál es el objetivo? ¿Tienes plazos o presupuesto en mente?"
+                required></textarea>
+            </div>
+
+          </div>
+
+          <div class="form-footer">
+            <span class="form-note">* Campos obligatorios</span>
+            <button type="submit" class="submit-btn" id="submit-btn">
+              Enviar mensaje →
+            </button>
+          </div>
+
+          <div class="form-status success" id="form-success">
+            ✓ Mensaje enviado. Te respondo en menos de 24 horas.
+          </div>
+          <div class="form-status error" id="form-error">
+            ✗ Algo salió mal. Inténtalo de nuevo o escríbeme directamente.
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+      <span>© 2026 Aaron Campelo. Hecho con precisión.</span>
+      <div class="footer-links">
+        <a href="https://aaron-campelo.github.io/garbisaweb/Garbisa/"
+          target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/aaron-campelo-ortiz-b27005289/"
+          target="_blank">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/aaron-campelo-ortiz-b27005289/overlay/1715893324848/single-media-viewer/?profileId=ACoAAEXyOA8BTO40vwUMIyy5pfKixGFefIeG5C0">CV</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
