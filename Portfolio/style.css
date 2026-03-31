@@ -441,7 +441,7 @@
       }
     }
 
-    /*
+ /*
  * ══════════════════════════════════════════
  *  FORMULARIO DE CONTACTO — form-contacto.css
  *  Depende de las variables CSS del portfolio:
@@ -531,7 +531,6 @@
 .form-group input::placeholder,
 .form-group textarea::placeholder {
   color: var(--border);
-  color: white;
 }
 
 .form-group input:focus,
@@ -602,14 +601,12 @@
 }
 
 .form-status.success {
-  display: block;
   background: rgba(200, 241, 53, 0.08);
   border: 1px solid rgba(200, 241, 53, 0.3);
   color: var(--accent);
 }
 
 .form-status.error {
-  display: block;
   background: rgba(241, 80, 53, 0.08);
   border: 1px solid rgba(241, 80, 53, 0.3);
   color: #f15335;
